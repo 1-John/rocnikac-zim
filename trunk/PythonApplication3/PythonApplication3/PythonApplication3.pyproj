@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7dd8c1d7-6150-4773-a21b-3b45598baa6e}</ProjectGuid>
+    <ProjectHome>D:\download\zim-0.56\zim-0.56\</ProjectHome>
+    <StartupFile>zim.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <InterpreterId>00000000-0000-0000-0000-000000000000</InterpreterId>
+    <InterpreterVersion>
+    </InterpreterVersion>
+    <Name>PythonApplication3</Name>
+    <RootNamespace>PythonApplication3</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="makeman.py" />
+    <Compile Include="msgfmt.py" />
+    <Compile Include="setup.py" />
+    <Compile Include="test.py" />
+    <Compile Include="zim.py" />
+    <Compile Include="contrib\zim2trac.py" />
+    <Compile Include="tests\applications.py" />
+    <Compile Include="tests\async.py" />
+    <Compile Include="tests\attachmentbrowser.py" />
+    <Compile Include="tests\calendar.py" />
+    <Compile Include="tests\clipboard.py" />
+    <Compile Include="tests\config.py" />
+    <Compile Include="tests\daemon.py" />
+    <Compile Include="tests\errors.py" />
+    <Compile Include="tests\export.py" />
+    <Compile Include="tests\formats.py" />
+    <Compile Include="tests\fs.py" />
+    <Compile Include="tests\gui.py" />
+    <Compile Include="tests\history.py" />
+    <Compile Include="tests\imagegenerators.py" />
+    <Compile Include="tests\index.py" />
+    <Compile Include="tests\inlinecalculator.py" />
+    <Compile Include="tests\main.py" />
+    <Compile Include="tests\notebook.py" />
+    <Compile Include="tests\package.py" />
+    <Compile Include="tests\pageview.py" />
+    <Compile Include="tests\parsing.py" />
+    <Compile Include="tests\plugins.py" />
+    <Compile Include="tests\printtobrowser.py" />
+    <Compile Include="tests\quicknote.py" />
+    <Compile Include="tests\search.py" />
+    <Compile Include="tests\stores.py" />
+    <Compile Include="tests\tableofcontents.py" />
+    <Compile Include="tests\tags.py" />
+    <Compile Include="tests\tasklist.py" />
+    <Compile Include="tests\templates.py" />
+    <Compile Include="tests\translations.py" />
+    <Compile Include="tests\utils.py" />
+    <Compile Include="tests\versioncontrol.py" />
+    <Compile Include="tests\widgets.py" />
+    <Compile Include="tests\www.py" />
+    <Compile Include="tests\__init__.py" />
+    <Compile Include="tools\class_tree.py" />
+    <Compile Include="tools\clean.py" />
+    <Compile Include="tools\dump_clipboard.py" />
+    <Compile Include="tools\extract_dependencies.py" />
+    <Compile Include="tools\extract_translator_comments.py" />
+    <Compile Include="tools\generate_test_notebook.py" />
+    <Compile Include="tools\import-launchpad-translations.py" />
+    <Compile Include="tools\internationalizer.py" />
+    <Compile Include="tools\package_test_data.py" />
+    <Compile Include="tools\replace_in_all_files.py" />
+    <Compile Include="tools\test_website.py" />
+    <Compile Include="tools\xdot_tree.py" />
+    <Compile Include="zim\applications.py" />
+    <Compile Include="zim\async.py" />
+    <Compile Include="zim\config.py" />
+    <Compile Include="zim\daemon.py" />
+    <Compile Include="zim\datetimetz.py" />
+    <Compile Include="zim\errors.py" />
+    <Compile Include="zim\exporter.py" />
+    <Compile Include="zim\fs.py" />
+    <Compile Include="zim\history.py" />
+    <Compile Include="zim\index.py" />
+    <Compile Include="zim\notebook.py" />
+    <Compile Include="zim\parsing.py" />
+    <Compile Include="zim\plugins\splitjoin.py" />
+    <Compile Include="zim\search.py" />
+    <Compile Include="zim\templates.py" />
+    <Compile Include="zim\utils.py" />
+    <Compile Include="zim\www.py" />
+    <Compile Include="zim\_version.py" />
+    <Compile Include="zim\__init__.py" />
+    <Compile Include="zim\formats\html.py" />
+    <Compile Include="zim\formats\latex.py" />
+    <Compile Include="zim\formats\markdown.py" />
+    <Compile Include="zim\formats\plain.py" />
+    <Compile Include="zim\formats\wiki.py" />
+    <Compile Include="zim\formats\__init__.py" />
+    <Compile Include="zim\formats\__main__.py" />
+    <Compile Include="zim\gui\applications.py" />
+    <Compile Include="zim\gui\cleannotebookdialog.py" />
+    <Compile Include="zim\gui\clipboard.py" />
+    <Compile Include="zim\gui\customtools.py" />
+    <Compile Include="zim\gui\exportdialog.py" />
+    <Compile Include="zim\gui\imagegeneratordialog.py" />
+    <Compile Include="zim\gui\notebookdialog.py" />
+    <Compile Include="zim\gui\pageindex.py" />
+    <Compile Include="zim\gui\pageview.py" />
+    <Compile Include="zim\gui\pathbar.py" />
+    <Compile Include="zim\gui\preferencesdialog.py" />
+    <Compile Include="zim\gui\propertiesdialog.py" />
+    <Compile Include="zim\gui\searchdialog.py" />
+    <Compile Include="zim\gui\server.py" />
+    <Compile Include="zim\gui\widgets.py" />
+    <Compile Include="zim\gui\__init__.py" />
+    <Compile Include="zim\inc\arithmetic.py" />
+    <Compile Include="zim\inc\xdot.py" />
+    <Compile Include="zim\inc\__init__.py" />
+    <Compile Include="zim\plugins\arithmetic.py" />
+    <Compile Include="zim\plugins\attachmentbrowser.py" />
+    <Compile Include="zim\plugins\automount.py" />
+    <Compile Include="zim\plugins\calendar.py" />
+    <Compile Include="zim\plugins\diagrameditor.py" />
+    <Compile Include="zim\plugins\ditaaeditor.py" />
+    <Compile Include="zim\plugins\equationeditor.py" />
+    <Compile Include="zim\plugins\gnuplot_ploteditor.py" />
+    <Compile Include="zim\plugins\gnu_r_ploteditor.py" />
+    <Compile Include="zim\plugins\inlinecalculator.py" />
+    <Compile Include="zim\plugins\insertsymbol.py" />
+    <Compile Include="zim\plugins\linesorter.py" />
+    <Compile Include="zim\plugins\printtobrowser.py" />
+    <Compile Include="zim\plugins\quicknote.py" />
+    <Compile Include="zim\plugins\screenshot.py" />
+    <Compile Include="zim\plugins\spell.py" />
+    <Compile Include="zim\plugins\tableofcontents.py" />
+    <Compile Include="zim\plugins\tags.py" />
+    <Compile Include="zim\plugins\tasklist.py" />
+    <Compile Include="zim\plugins\trayicon.py" />
+    <Compile Include="zim\plugins\__init__.py" />
+    <Compile Include="zim\plugins\linkmap\gui.py" />
+    <Compile Include="zim\plugins\linkmap\__init__.py" />
+    <Compile Include="zim\plugins\versioncontrol\bzr.py" />
+    <Compile Include="zim\plugins\versioncontrol\git.py" />
+    <Compile Include="zim\plugins\versioncontrol\hg.py" />
+    <Compile Include="zim\plugins\versioncontrol\__init__.py" />
+    <Compile Include="zim\stores\files.py" />
+    <Compile Include="zim\stores\memory.py" />
+    <Compile Include="zim\stores\xml.py" />
+    <Compile Include="zim\stores\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="contrib" />
+    <Folder Include="tests" />
+    <Folder Include="tools" />
+    <Folder Include="zim" />
+    <Folder Include="zim\formats" />
+    <Folder Include="zim\gui" />
+    <Folder Include="zim\inc" />
+    <Folder Include="zim\plugins" />
+    <Folder Include="zim\plugins\linkmap" />
+    <Folder Include="zim\plugins\versioncontrol" />
+    <Folder Include="zim\stores" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
