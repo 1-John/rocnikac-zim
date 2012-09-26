@@ -132,11 +132,11 @@ This plugin is still under development.
 			text +=  '-----\n' + fileText
 			#or TODO: text +=  dline + '\n' + fileText
 		self.ui.open_page(path)	
-		self.fin(text)
+#		self.fin(text)
 #		self.disconnect()
-		self.ui.open_page(path)		
+#		self.ui.open_page(path)		
 		self.ui.append_text_to_page(path, text)
-		#self.ui.open_page(path)		
+		self.ui.open_page(path)		
 
 	def fin(self,writeBuffer):
 		context = self.get_path_context_from_self(self)
