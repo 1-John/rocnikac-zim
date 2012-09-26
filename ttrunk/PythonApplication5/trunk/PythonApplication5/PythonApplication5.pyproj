@@ -5,7 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{c4b42321-c5ba-4829-a04e-acb6c4312cfe}</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplication5.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +23,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonApplication5.py" />
+    <Compile Include="makeman.py" />
+    <Compile Include="msgfmt.py" />
+    <Compile Include="setup.py" />
+    <Compile Include="splitjoin.py" />
+    <Compile Include="test.py" />
+    <Compile Include="zim.py" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
